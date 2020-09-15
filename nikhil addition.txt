@@ -1,0 +1,46 @@
+#include <stdio.h>
+
+
+int main(void)
+ {
+	
+
+	int num,num2;
+
+	printf("enter first number");
+
+	scanf("%d",&num);
+
+	printf("\n enter second number");
+
+	scanf("%d",&num2);
+
+	int b=num+num2;
+
+	int c=num-num2;
+   	
+        int p=num*num2;
+
+	int d=num/num2;  
+
+	int m=num%num2;
+
+	printf("\n sum of number is %d",b);
+		       
+       printf("\n difference of number is %d",c);
+			
+       printf("\n product of number is %d",p);
+				
+       printf("\n  quetioned of number is %d",d);
+			
+       printf("\n remender of number is %d",m);
+	return 0;
+}
+ output :
+         enter first number
+         enter second number
+         sum of number is 14
+        difference of number is 10
+        product of number is 24
+        quetioned of number is 6
+        remender of number is 0
